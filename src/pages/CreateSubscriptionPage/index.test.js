@@ -1,9 +1,9 @@
 import React from "react"
 import { shallow } from "enzyme"
-import { App } from "./App"
+import { CreateSubscriptionPage } from "./index"
 
 test("it renders", () => {
-  const component = shallow(<App />)
+  const component = shallow(<CreateSubscriptionPage />)
 
   expect(component).toMatchSnapshot()
 })
