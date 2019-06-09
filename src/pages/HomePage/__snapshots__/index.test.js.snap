@@ -1,7 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`it renders 1`] = `
-<div>
-  home
+<div
+  className="HomePage"
+>
+  <div
+    className="main"
+  >
+    <div
+      className="logo"
+    >
+      <h1
+        className="header"
+      >
+        D Monetize
+      </h1>
+    </div>
+    <div
+      className="form"
+    >
+      <SearchSubscriptionForm
+        onSubmit={[Function]}
+      />
+    </div>
+    <Button
+      as="button"
+      color="green"
+      onClick={[Function]}
+      size="huge"
+    >
+      Create Subscription
+    </Button>
+  </div>
 </div>
 `;
