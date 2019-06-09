@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
-import { Form, Input, Button, Icon } from "semantic-ui-react"
-import styles from "./SearchSubscriptionForm.module.css"
+import { Form, Input } from "semantic-ui-react"
 
 export function SearchSubscriptionForm(props) {
   const [address, setAddress] = useState("")
@@ -20,21 +19,14 @@ export function SearchSubscriptionForm(props) {
 
   return (
     <Form onSubmit={onSubmit}>
-      <div className={styles.row}>
-        <div className={styles.input}>
-          <Input
-            placeholder="Find Subscription"
-            onChange={onChangeAddress}
-            value={address}
-            autoFocus
-            fluid
-            size="huge"
-          />
-        </div>
-        <Button icon size="huge">
-          <Icon name="search" />
-        </Button>
-      </div>
+      <Input
+        placeholder="Find Subscription"
+        onChange={onChangeAddress}
+        value={address}
+        autoFocus
+        fluid
+        size="big"
+      />
     </Form>
   )
 }
