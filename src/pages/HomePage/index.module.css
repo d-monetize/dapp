@@ -1,0 +1,28 @@
+.HomePage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  width: 70vw;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30vh;
+  /* background-color: red; */
+}
+.logo {
+  margin: 50px;
+}
+.header {
+  font-size: 2.5rem;
+  white-space: nowrap;
+}
+.form {
+  width: 100%;
+  margin-bottom: 50px;
+}

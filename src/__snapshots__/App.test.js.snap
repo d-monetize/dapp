@@ -1,22 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`it renders 1`] = `
-<div>
-  <Container>
-    <Switch>
-      <Route
-        component={[Function]}
-        path="/subscriptions/create"
-      />
-      <Route
-        component={[Function]}
-        path="/subscriptions/:address"
-      />
-      <Route
-        component={[Function]}
-      />
-    </Switch>
-  </Container>
+<div
+  className="App"
+>
+  <Switch>
+    <Route
+      component={[Function]}
+      path="/subscriptions/create"
+    />
+    <Route
+      component={[Function]}
+      path="/subscriptions/:address"
+    />
+    <Route
+      component={[Function]}
+    />
+  </Switch>
   <ToastContainer
     autoClose={5000}
     bodyClassName={null}

@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`change address 1`] = `
+<Form
+  as="form"
+  onSubmit={[Function]}
+>
+  <div
+    className="row"
+  >
+    <div
+      className="input"
+    >
+      <Input
+        autoFocus={true}
+        fluid={true}
+        onChange={[Function]}
+        placeholder="Find Subscription"
+        size="huge"
+        type="text"
+        value="foo"
+      />
+    </div>
+    <Button
+      as="button"
+      icon={true}
+      size="huge"
+    >
+      <Icon
+        as="i"
+        name="search"
+      />
+    </Button>
+  </div>
+</Form>
+`;
+
+exports[`it renders 1`] = `
+<Form
+  as="form"
+  onSubmit={[Function]}
+>
+  <div
+    className="row"
+  >
+    <div
+      className="input"
+    >
+      <Input
+        autoFocus={true}
+        fluid={true}
+        onChange={[Function]}
+        placeholder="Find Subscription"
+        size="huge"
+        type="text"
+        value=""
+      />
+    </div>
+    <Button
+      as="button"
+      icon={true}
+      size="huge"
+    >
+      <Icon
+        as="i"
+        name="search"
+      />
+    </Button>
+  </div>
+</Form>
+`;
