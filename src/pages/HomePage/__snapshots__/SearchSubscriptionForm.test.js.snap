@@ -5,33 +5,15 @@ exports[`change address 1`] = `
   as="form"
   onSubmit={[Function]}
 >
-  <div
-    className="row"
-  >
-    <div
-      className="input"
-    >
-      <Input
-        autoFocus={true}
-        fluid={true}
-        onChange={[Function]}
-        placeholder="Find Subscription"
-        size="huge"
-        type="text"
-        value="foo"
-      />
-    </div>
-    <Button
-      as="button"
-      icon={true}
-      size="huge"
-    >
-      <Icon
-        as="i"
-        name="search"
-      />
-    </Button>
-  </div>
+  <Input
+    autoFocus={true}
+    fluid={true}
+    onChange={[Function]}
+    placeholder="Find Subscription"
+    size="big"
+    type="text"
+    value="foo"
+  />
 </Form>
 `;
 
@@ -40,32 +22,14 @@ exports[`it renders 1`] = `
   as="form"
   onSubmit={[Function]}
 >
-  <div
-    className="row"
-  >
-    <div
-      className="input"
-    >
-      <Input
-        autoFocus={true}
-        fluid={true}
-        onChange={[Function]}
-        placeholder="Find Subscription"
-        size="huge"
-        type="text"
-        value=""
-      />
-    </div>
-    <Button
-      as="button"
-      icon={true}
-      size="huge"
-    >
-      <Icon
-        as="i"
-        name="search"
-      />
-    </Button>
-  </div>
+  <Input
+    autoFocus={true}
+    fluid={true}
+    onChange={[Function]}
+    placeholder="Find Subscription"
+    size="big"
+    type="text"
+    value=""
+  />
 </Form>
 `;
